@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bawei.lss_car_high02.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="300dp"
+        android:id="@+id/xqsdv"
+        android:layout_gravity="center"
+        android:layout_height="300dp" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tvtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="#f23"
+            android:textColor="#fff"
+            android:id="@+id/tiaozhuan"
+            android:layout_weight="1"
+            android:text="跳转到购物车"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="#f23"
+            android:textColor="#fff"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tianjia"
+            android:layout_weight="1"
+            android:text="添加到购物车"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
